@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO Приложение</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <button id="toggleThemeBtn">Сменить тему</button>
+    <h1 id="main-title">TODO</h1>
+    <button id="openCreatePostModal">Создать задачу</button>
+
+    <h2 class="post-title">Важные задачи:</h2>
+    <div class="important-posts-list">
+        <!-- Здесь будут отображаться важные задачи -->
+    </div>
+
+    <h2 class="post-title">Обычные задачи:</h2>
+    <div class="posts-list">
+        <!-- Здесь будут отображаться задачи -->
+    </div>
+
+    <!-- Лоадер -->
+    <div id="loader" class="loader"></div>
+</div>
+
+<!-- Модальное окно для создания/редактирования задачи -->
+<div id="postModal" class="modal">
+    <div class="modal-content">
+        <span  id="closePostModal" class="close">&times;</span>
+        <h2>Создать задачу</h2>
+        <form id="postForm">
+            <!-- Форма для создания/редактирования задачи -->
+            <label for="userNameSelect">ID пользователя:</label>
+            <select id="userNameSelect"></select><br><br>
+            <label for="postTitle">Заголовок:</label>
+            <input type="text" id="postTitle" name="postTitle" required><br><br>
+
+            <label for="postContent">Содержание:</label>
+            <textarea id="postContent" name="postContent" rows="4" required></textarea><br><br>
+
+            <button id="savePostBtn">Сохранить</button>
+        </form>
+    </div>
+</div>
+
+<!-- Модальное окно подтверждения удаления -->
+<div id="confirmModal" class="modal">
+    <div class="modal-content">
+        <span id="closeConfirmModal" class="close">&times;</span>
+        <h2>Подтвердите удаление</h2>
+        <p>Вы уверены, что хотите удалить эту задачу?</p>
+        <div class="confirm-buttons">
+            <button id="confirmDeleteBtn">Да, удалить</button>
+            <button id="cancelDeleteBtn">Отмена</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
