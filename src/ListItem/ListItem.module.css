@@ -1,0 +1,40 @@
+.FilmBlock {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 1px 0.25rem 0 #EEEEEE;
+  transition: top ease 0.2s, box-shadow 0.2s;
+}
+
+.FilmBlock:last-child {
+  margin-bottom: 0;
+}
+
+.FilmBlock:hover {
+  top: -0.25rem;
+  box-shadow: 0 8px 0.5rem 0 #EEEEEE;
+  cursor: pointer;
+}
+
+.Selected {
+  background: #ECF1F7;
+}
+
+.FilmBlock .Title {
+
+}
+
+.FilmBlock .Info {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #777777;
+}
