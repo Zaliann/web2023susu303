@@ -1,0 +1,135 @@
+.FilmInfoBlock {
+  width: 100%;
+  height: calc(100vh - 3.25rem);
+  padding: 1rem 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.FilmHeaderSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.FilmHeaderSection span {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.FilmHeaderSection span svg {
+  margin-left: 0.375rem;
+}
+
+.FilmHeaderSection button {
+  background: #ecf1f8;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #E6E6E6;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 #ededed;
+  transition: 0.2s;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+.FilmHeaderSection button:hover {
+  background: #e4efff;
+  border: 1px solid #e8e8e8;
+}
+
+.FilmMainSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.PosterImg {
+  max-height: 20rem;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: #EFEFEF 0 0.125rem 1rem 0.25rem;
+}
+
+.FilmMainSectionText {
+  width: 100%;
+  margin-left: 1.5rem;
+}
+
+.FilmMainSectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.FilmMainSectionTitle h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.FilmMainSectionTitle span {
+  color: #777777;
+}
+
+.FilmMainSectionInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FilmMainSectionParameters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.FilmMainSectionParameters span {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.FilmMainSectionActors {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-left: 1rem;
+}
+
+.FilmMainSectionActors span {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.FilmMainSectionColumnTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.FilmDescSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.FilmDescSection h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.FilmDescSection span {
+  text-align: left;
+}

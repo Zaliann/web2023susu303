@@ -1,0 +1,21 @@
+.Header {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    box-shadow: #EFEFEF 0 0.125rem 0.5rem;
+    border-bottom: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.Title {
+    font-size: 1.375rem;
+    font-weight: 800;
+}
+
+.Author {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: #FFDD2D;
+    border: 1px solid #f7d732;
+    box-shadow: 0 2px 2px 0 #ededed;
+}

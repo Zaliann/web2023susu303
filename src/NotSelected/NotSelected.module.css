@@ -1,0 +1,11 @@
+.FilmNotSelected {
+  width: 100%;
+  height: calc(100vh - 3.25rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FilmNotSelected span {
+  font-size: 1.5rem;
+}

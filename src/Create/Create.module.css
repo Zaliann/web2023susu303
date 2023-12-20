@@ -1,0 +1,100 @@
+.UpdateBlock {
+  width: 100%;
+  height: calc(100vh - 3.25rem);
+  padding: 1rem 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: start;
+}
+
+.UpdateData {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.UpdateBlock input,
+.UpdateBlock textarea {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.InputText {
+  width: 100%;
+  height: 2.5rem;
+  background: #ECF1F7;
+  color: rgba(0, 0, 0, 0.46);
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid #E6E6E6;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.2s;
+  padding: 0 0.75rem;
+}
+
+.InputText:hover {
+  background: #e4efff;
+  border: 1px solid #e8e8e8;
+}
+
+.InputNumber::-webkit-outer-spin-button,
+.InputNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.InputNumber,
+.InputNumber:hover,
+.InputNumber:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+.Textarea {
+  height: auto;
+  padding: 0.5rem 0.75rem;
+}
+
+.Footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0 0;
+  border-top: 1px solid rgba(217, 217, 217, 0.52);
+}
+
+.SaveBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: #FFDD2D;
+  border: 1px solid #f7d732;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 #ededed;
+  transition: 0.2s;
+}
+
+.SaveBtn:hover {
+  background: #ffd80d;
+}
+
+.CancelBtn {
+  background: #ecf1f8;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #E6E6E6;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 #ededed;
+  transition: 0.2s;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+.CancelBtn:hover {
+  background: #e4efff;
+  border: 1px solid #e8e8e8;
+}
